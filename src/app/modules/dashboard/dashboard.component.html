@@ -1,0 +1,37 @@
+<div>
+    <app-widgets-area></app-widgets-area>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats-cards">
+    <mat-card fxFlex="25">
+        <app-widget-card label="pH" total="18k" porcentaje="50%"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="Nivel de Agua" total="18 Lts" porcentaje="95%"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="Temperatura" total="32°C" porcentaje="50%"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="Luces" total="5 hrs" porcentaje="30%"></app-widget-card>
+    </mat-card>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap='20px'>
+    <div fxFlex="60">Table</div>
+    <div fxFlex="40">
+        <app-widget-pie></app-widget-pie>
+    </div>
+</div>
